@@ -1,13 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', oswald;
+}
+
+
 .firsthead {
-    background-color: rgb(12 62 117)
-    padding: 
+    background-color: rgb(12 62 117);
+    padding: 30px;
 }
 
 .firsthead h1 {
     color: white; 
 }
 
+.box {
+    background-color: rgb(240 237 238);
+    padding: 40px;
+}
+
+.innerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.size h6 {
+    font-size: 20px; 
+}
+
 body {
     background-color: white;
-    font-family: 'open sans', oswald;
+}
+
+.all {
+    margin: 
 }
