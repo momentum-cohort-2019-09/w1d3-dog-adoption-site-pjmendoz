@@ -5,7 +5,6 @@
     font-family: 'open sans', oswald;
 }
 
-
 .firsthead {
     background-color: rgb(12 62 117);
     padding: 30px;
@@ -15,25 +14,37 @@
     color: white; 
 }
 
+.bodyheader {
+    padding: 30px;
+    line-height: 40px; 
+}
+
 .box {
     background-color: rgb(240 237 238);
     padding: 40px;
-}
+    margin: 30px;
+}   
 
 .innerbox {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-.size h6 {
-    font-size: 20px; 
+    padding: 40px; 
 }
 
 body {
     background-color: white;
 }
 
-.all {
-    margin: 
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
 }
