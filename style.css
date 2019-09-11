@@ -21,7 +21,6 @@
 
 .box {
     background-color: rgb(240 237 238);
-    padding: 40px;
     margin: 30px;
 }   
 
@@ -29,7 +28,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 40px; 
+    padding: 40px 740px 40px 0px; 
 }
 
 body {
@@ -38,10 +37,15 @@ body {
 
 .main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-evenly, left; 
     flex-wrap: wrap;
     flex-grow: 2;
+    text-align: left; 
+    padding: 50px; 
+}
+
+ol li {
+    list-style: none!important;
 }
 
 .footer {
