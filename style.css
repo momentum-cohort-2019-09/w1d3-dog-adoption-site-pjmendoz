@@ -30,6 +30,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 10px 740px 40px 0px; 
+    max-width: 1rem auto;
 }
 
 body {
@@ -54,8 +55,10 @@ body {
 }
 
 .list li {
-    margin-right: 0.5rem; 
+    margin-right: 0.2rem; 
     background-color: rgb(147 221 239);
+    border-radius: 25px; 
+    padding: 5px; 
 }
 
 .footer {
@@ -63,3 +66,31 @@ body {
     flex-direction: row;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.donate {
+    background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/donate.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    padding: 200px; 
+    text-align: center; 
+    color: white; 
+}
+
+.volunteer {
+    background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/volunteer.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    padding: 200px;  
+    text-align: center; 
+    color: white;
+}
+
+.location {
+    background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/location.png); 
+    background-position: center; 
+    background-size: cover; 
+    padding: 200px; 
+    text-align: center; 
+    color: white; 
+}
+
