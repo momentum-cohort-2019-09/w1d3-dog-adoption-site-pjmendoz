@@ -33,10 +33,11 @@
 .innerbox {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     padding: 20px; 
-    margin-left: 10px; 
+}
 
+.item {
+    margin-right: 50px; 
 }
 
 body {
@@ -90,7 +91,6 @@ body {
     background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/donate.jpg); 
     background-position: center; 
     background-size: cover; 
-    /* padding: 200px;  */
     text-align: center; 
     color: white; 
     font-size: 50px; 
@@ -100,7 +100,6 @@ body {
     background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/volunteer.jpg); 
     background-position: center; 
     background-size: cover; 
-    /* padding: 200px;   */
     text-align: center; 
     color: white;
     font-size: 50px; 
@@ -110,7 +109,6 @@ body {
     background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/location.png); 
     background-position: center; 
     background-size: cover; 
-    /* padding: 200px;  */
     text-align: center; 
     color: white; 
     font-size: 50px; 
