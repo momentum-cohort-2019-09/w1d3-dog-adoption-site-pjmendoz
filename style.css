@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'open sans', oswald;
+    max-width: 1rem auto;
 }
 
 .firsthead {
@@ -36,22 +37,24 @@ body {
 }
 
 .main {
-    display: flex;
-    justify-content: space-evenly, left; 
+    display: grid;
+    justify-content: space-around; 
     flex-wrap: wrap;
-    text-align: left; 
     padding: 50px; 
-    margin: 10px 10px 10px 70px; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.dog {
+    margin-right: 30px; 
 }
 
 ol li {
     list-style: none!important;
 }
 
-.form {
-    line-height: 20px;
-}
 .footer {
-    display: flex;
+    display: grid;
     flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
 }
