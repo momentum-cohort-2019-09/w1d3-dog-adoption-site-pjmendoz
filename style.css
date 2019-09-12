@@ -19,18 +19,24 @@
     line-height: 40px; 
 }
 
+
 .box {
     background-color: rgb(240 237 238);
-    margin: 70px;
+    margin-left: 30px; 
+    margin-right: 35px; 
 }   
+
+.main-header {
+    padding: 20px; 
+}
 
 .innerbox {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 10px 740px 40px 0px; 
-    max-width: 1rem auto;
-    margin-left: 30px; 
+    padding: 20px; 
+    margin-left: 20px; 
+
 }
 
 body {
@@ -44,6 +50,7 @@ body {
     padding: 100px; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    margin: 10px 10px 10px 70px; 
 }
 
 
@@ -63,16 +70,26 @@ body {
 }
 
 .footer {
-    display: grid;
+    display: flex; 
     flex-direction: row;
     grid-template-columns: 1fr 1fr 1fr;
+    flex: 1; 
+}
+
+.footerkids {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 1 1 0; 
+    height: 300px; 
+    
 }
 
 .donate {
     background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/donate.jpg); 
     background-position: center; 
     background-size: cover; 
-    padding: 200px; 
+    /* padding: 200px;  */
     text-align: center; 
     color: white; 
     font-size: 50px; 
@@ -82,7 +99,7 @@ body {
     background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/volunteer.jpg); 
     background-position: center; 
     background-size: cover; 
-    padding: 200px;  
+    /* padding: 200px;   */
     text-align: center; 
     color: white;
     font-size: 50px; 
@@ -92,9 +109,29 @@ body {
     background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), url(starter_files/images/location.png); 
     background-position: center; 
     background-size: cover; 
-    padding: 200px; 
+    /* padding: 200px;  */
     text-align: center; 
     color: white; 
     font-size: 50px; 
+}
+
+.page-wrapper {
+    display: flex; 
+}
+
+.left-wrapper {
+    order: 1; 
+    width: 200px; 
+    background-color: rgb(240 237 238);
+}
+
+.center {
+    order: 2; 
+}
+
+.right-wrapper{
+    order: 3; 
+    width: 200px; 
+    background-color: rgb(240 237 238);
 }
 
