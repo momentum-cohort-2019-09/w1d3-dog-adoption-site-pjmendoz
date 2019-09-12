@@ -45,12 +45,16 @@ body {
     grid-gap: 10px;
 }
 
-.dog {
-    margin-right: 30px; 
+
+.list {
+    list-style: none!important; 
+    display: flex; 
+    margin: 1rem 0; 
+    flex-wrap: wrap;
 }
 
-ol li {
-    list-style: none!important;
+.list li {
+    margin-right: 0.5rem; 
 }
 
 .footer {
